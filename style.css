@@ -35,3 +35,32 @@ body {
   gap: 30px;
   margin: auto; 
 }
+
+
+.hero {
+  background: url(images/assets/hero-bg.png) center/cover no-repeat;
+  padding: 120px 20px;
+  text-align: center;
+  color: #fff;
+}
+
+.hero span {
+  color: #3f7f5f;
+}
+
+.hero-buttons {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.outline {
+  background: transparent;
+  border: 1px solid #fff; 
+  color: #fff;
+}
+
+.btn:hover {
+  opacity: 0.8; 
+}
